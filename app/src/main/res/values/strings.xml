@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="required">required</string>
+    <string name="app_name" tools:ignore="MissingTranslation">Dt2w</string>
+    <string name="pref_title_battery_check">Battery sensor</string>
+    <string name="pref_title_battery_level">Charge threshold</string>
+    <string name="title_activity_main">DoubleTap</string>
+    <string name="pref_header_dt2w">Double tap to wake options</string>
+    <string name="pref_header_s2s">Sweep to sleep options</string>
+    <string name="pref_header_battery_check">Energy options</string>
+    <string name="pref_header_dash">Device Info</string>
+    <string name="pref_header_credits">Credits</string>
+    <string name="pref_header_app_setup">Application setup</string>
+    <string name="pref_title_enable_dt2w">DoubleTap2Wake</string>
+    <string name="pref_title_enable_s2s">Sweep</string>
+    <string name="pref_description_dt2w">Double tap to wake device. Your CPU will be still working, use wisely!</string>
+    <string name="pref_description_s2s">Gesture to suspend device</string>
+    <string name="pref_description_battery_check">Dt2w battery check auto-off</string>
+    <string name="pref_title_dt2w_duration">DoubleTap lifespan</string>
+    <string name="pref_description_dt2w_duration">Time to wait for double tap</string>
+    <string name="pref_title_dt2w_detect_area">DoubleTap sensor size</string>
+    <string name="pref_description_dt2w_detect_area">Area of screen used to detect gesture</string>
+    <string name="pref_title_s2s_detect_area">S2S sensor size</string>
+    <string name="pref_description_s2s_detect_area">Width percentage threshold</string>
+    <string name="pref_huawei_protected_apps">Protected apps</string>
+    <string name="pref_huawei_startup_apps">Startup manager</string>
+    <string name="pref_huawei_startup_desc">Add Dt2w to Startup Manager to apply settings during phone startup.</string>
+    <string name="pref_huawei_protected_desc">Add Dt2w to Protected Apps to allow battery sensor checks during Dt2w lifespan.</string>
+    <string name="pref_description_dash1">DoubleTap2Wake requires k-tuned devices.</string>
+    <string name="pref_title_dash_kernel">K-Tuned test</string>
+    <string name="pref_description_dash_kernel">3.0.101_K_Tuned for P7/P6S by Kostyan_nsk</string>
+    <string name="pref_description_credits1">DoubleTap2Wake for Huawei P7/P6S is part of a wider project, please check GitHub/XDA/4PDA with these pointers for further credits.</string>
+    <string name="pref_title_credits_credits2">K-Tuned kernel (P6S/P7)</string>
+    <string name="pref_description_credits2">by Kostyan_nsk, more info on github Kostyan-nsk/hwp6s-kernel</string>
+    <string name="pref_description_credits3">DoubleTap2Wake original driver authored by Dennis Rassmann</string>
+    <string name="pref_description_credits4">Dt2w Apk v2 by Printusrzero</string>
+
+    <string name="apk_kernel_ok"> check OK</string>
+    <string name="apk_kernel_not_compatible"> kernel not compatible, please install </string>
+    <string name="apk_target_kernel_desc"> a K-Tuned compatible kernel version.</string>
+    <string name="apk_target_kernel_prefix">K-Tuned</string>
+
+    <string-array name="pref_dt2w_duration_titles">
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>6 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+    </string-array>
+    <string-array name="pref_dt2w_duration_values">
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>360</item>
+        <item>900</item>
+        <item>1800</item>
+        <item>3600</item>
+        <item>7200</item>
+        <item>10800</item>
+        <item>21600</item>
+    </string-array>
+    <string-array name="pref_dt2w_detect_area_titles">
+        <item>Full screen</item>
+        <item>Upper half</item>
+        <item>Lower half</item>
+        <item>Navbar</item>
+    </string-array>
+    <string-array name="pref_dt2w_detect_area_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="pref_s2s_detect_area_titles">
+        <item>25 &#65130;</item>
+        <item>50 &#65130;</item>
+        <item>75 &#65130;</item>
+        <item>100 &#65130; screen width</item>
+    </string-array>
+    <string-array name="pref_s2s_detect_area_values">
+        <item>270</item>
+        <item>540</item>
+        <item>810</item>
+        <item>1080</item>
+    </string-array>
+</resources>

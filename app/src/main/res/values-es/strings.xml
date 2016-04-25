@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+    <string name="app_name">Dt2w</string>
+    <string name="pref_title_battery_level">Umbral de carga</string>
+    <string name="pref_description_battery_check">Dt2w auto-off</string>
+    <string name="pref_header_battery_check">Opciones de energía</string>
+    <string name="pref_title_battery_check">Sensor de batería</string>
+
+    <string name="title_activity_main">Doble Tap</string>
+
+    <string name="pref_header_dt2w">Opciones de doble tap</string>
+    <string name="pref_header_s2s">Opciones deslizar para suspender</string>
+    <string name="pref_header_dash">Información del dispositivo</string>
+    <string name="pref_header_credits">Credits</string>
+
+    <string name="pref_title_enable_dt2w">Doble Tap para Activar</string>
+    <string name="pref_title_enable_s2s">Deslizar para Suspender</string>
+
+    <string name="pref_description_dt2w">La CPU seguirá funcionando, ajusta la duración para ahorrar energía!</string>
+    <string name="pref_description_s2s">Gesto para suspender el dispositivo</string>
+
+    <string name="pref_title_dt2w_duration">Duración del Doble Tap</string>
+    <string name="pref_description_dt2w_duration">Tiempo de espera del Doble Tap</string>
+
+    <string name="pref_title_dt2w_detect_area">Tamaño del sensor Doble Tap</string>
+    <string name="pref_description_dt2w_detect_area">Zona de la pantalla para el Double Tap</string>
+
+    <string name="pref_title_s2s_detect_area">Tamaño del sensor Dps</string>
+    <string name="pref_description_s2s_detect_area">Longitud del deslizamiento</string>
+
+
+    <string name="pref_header_app_setup">Opciones de aplicación</string>
+
+    <string-array name="pref_dt2w_duration_titles">
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>6 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>3 horas</item>
+        <item>6 horas</item>
+    </string-array>
+
+    <string-array name="pref_dt2w_duration_values">
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>360</item>
+        <item>900</item>
+        <item>1800</item>
+        <item>3600</item>
+        <item>7200</item>
+        <item>10800</item>
+        <item>21600</item>
+    </string-array>
+
+    <string-array name="pref_dt2w_detect_area_titles">
+        <item>Pantalla completa</item>
+        <item>Mitad superior</item>
+        <item>Mitad inferior</item>
+        <item>Barra de navegación</item>
+    </string-array>
+    <string-array name="pref_dt2w_detect_area_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="pref_s2s_detect_area_titles">
+        <item>25 &#65130;</item>
+        <item>50 &#65130;</item>
+        <item>75 &#65130;</item>
+        <item>100 &#65130; de la pantalla</item>
+    </string-array>
+    <string-array name="pref_s2s_detect_area_values">
+        <item>270</item>
+        <item>540</item>
+        <item>810</item>
+        <item>1080</item>
+    </string-array>
+
+    <string name="pref_description_dash1">DoubleTap2Wake requiere k-tuned kernel.</string>
+    <string name="pref_title_dash_kernel">Test K-Tuned</string>
+    <string name="pref_description_dash_kernel">3.0.101_K_Tuned for P7/P6S by Kostyan_nsk</string>
+
+    <string name="pref_description_credits1">DoubleTap2Wake for Huawei P7/P6S is part of a wider project, please check GitHub/XDA/4PDA with these pointers for further credits.</string>
+    <string name="pref_title_credits_credits2">K-Tuned kernel (P6S/P7)</string>
+    <string name="pref_description_credits2">by Kostyan_nsk, more info on github Kostyan-nsk/hwp6s-kernel</string>
+    <string name="pref_description_credits3">DoubleTap2Wake original driver authored by Dennis Rassmann</string>
+    <string name="pref_description_credits4">Dt2w Apk v2 by Printusrzero</string>
+
+    <string name="apk_kernel_ok"> test OK</string>
+    <string name="apk_kernel_not_compatible"> kernel no compatible, intalar </string>
+
+    <string name="required">requerido</string>
+    <string name="pref_huawei_startup_desc">Añade Dt2w al gestor de inicio para recuperar la configuración al iniciar.</string>
+    <string name="pref_huawei_startup_apps">Gestor de inicio</string>
+    <string name="pref_huawei_protected_desc">Añade Dt2w a las aplicaciones protegidas para permitir la función Sensor de batería.</string>
+    <string name="pref_huawei_protected_apps">Aplicaciones protegidas</string>
+    <string name="apk_target_kernel_desc">una versión compatible con kernels K-Tuned</string>
+    <string name="apk_target_kernel_prefix">K-Tuned</string>
+
+</resources>

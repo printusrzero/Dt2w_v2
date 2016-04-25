@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dt2w</string>
+    <string name="pref_description_battery_check">Отключить двойное касание при уровене заряда ниже заданного</string>
+    <string name="pref_header_battery_check">Настройки контроля заряда</string>
+    <string name="pref_title_battery_check">Контроль батареи</string>
+
+    <string name="title_activity_main">Двойное касание</string>
+
+    <string name="pref_header_dt2w">Настройки двойного касания</string>
+    <string name="pref_header_s2s">Настройки Sweep to Sleep</string>
+    <string name="pref_header_dash">Информация об устройстве</string>
+    <string name="pref_header_credits">Credits</string>
+
+    <string name="pref_title_enable_dt2w">Включение по двойному касанию</string>
+    <string name="pref_title_enable_s2s">Sweep2Sleep</string>
+
+    <string name="pref_description_dt2w">Включение экрана по двойному касанию. ЦП Вашего устройства будет оставаться в работе, используйте с умом!</string>
+    <string name="pref_description_s2s">Выключение экрана свайпом по панели навигации.</string>
+
+    <string name="pref_title_dt2w_duration">Время активности</string>
+    <string name="pref_description_dt2w_duration">Время, в течение которого двойное касание будет активно после выключения экрана.</string>
+
+    <string name="pref_title_dt2w_detect_area">Область действия</string>
+    <string name="pref_description_dt2w_detect_area">Область экрана, используемая для определения двойного касания.</string>
+
+    <string name="pref_title_s2s_detect_area">Длина свайпа</string>
+    <string name="pref_description_s2s_detect_area">Длина свайпа в процентах от ширины экрана</string>
+
+    <string-array name="pref_dt2w_duration_titles">
+        <item>1 минута</item>
+        <item>2 минуты</item>
+        <item>3 минуты</item>
+        <item>6 минут</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>6 часов</item>
+    </string-array>
+
+    <string-array name="pref_dt2w_duration_values">
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>360</item>
+        <item>900</item>
+        <item>1800</item>
+        <item>3600</item>
+        <item>7200</item>
+        <item>10800</item>
+        <item>21600</item>
+    </string-array>
+
+    <string-array name="pref_dt2w_detect_area_titles">
+        <item>Весь экран</item>
+        <item>Верхняя половина</item>
+        <item>Нижняя половина</item>
+        <item>Панель навигации</item>
+    </string-array>
+    <string-array name="pref_dt2w_detect_area_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="pref_s2s_detect_area_titles">
+        <item>25 &#65130;</item>
+        <item>50 &#65130;</item>
+        <item>75 &#65130;</item>
+        <item>100 &#65130; ширины экрана</item>
+    </string-array>
+    <string-array name="pref_s2s_detect_area_values">
+        <item>270</item>
+        <item>540</item>
+        <item>810</item>
+        <item>1080</item>
+    </string-array>
+
+    <string name="pref_description_dash1">Для двойного касания требуется k-tuned устройство.</string>
+    <string name="pref_title_dash_kernel">K-Tuned тест</string>
+    <string name="pref_description_dash_kernel">3.0.101_K_Tuned for P7/P6S by Kostyan_nsk</string>
+
+    <string name="pref_description_credits1">DoubleTap2Wake for Huawei P7/P6S is part of a wider project, please check GitHub/XDA/4PDA with these pointers for further credits.</string>
+    <string name="pref_title_credits_credits2">K-Tuned kernel programming (P6S/P7)</string>
+    <string name="pref_description_credits2">by Kostyan_nsk, more info on github Kostyan-nsk/hwp6s-kernel</string>
+    <string name="pref_description_credits3">DoubleTap2Wake original driver authored by Dennis Rassmann</string>
+    <string name="pref_description_credits4">Apk by printusrzero</string>
+    <string name="apk_kernel_ok">" check OK"</string>
+    <string name="apk_kernel_not_compatible">" ядро несовместимо, пожалуйста установите "</string>
+    <string name="apk_target_kernel_desc"> K-Tuned ядро.</string>
+    <string name="apk_target_kernel_prefix">K-Tuned</string>
+    <string name="required">required</string>
+    <string name="pref_header_app_setup">Настройки приложения</string>
+    <string name="pref_huawei_startup_desc">Включите Dt2w в диспетчере запуска для восстановления значений после загрузки.</string>
+    <string name="pref_huawei_startup_apps">Диспетчер запуска</string>
+    <string name="pref_huawei_protected_desc">Добавьте Dt2w в защищенные приложения для контроля уровня заряда.</string>
+    <string name="pref_huawei_protected_apps">Защищенные приложения</string>
+    <string name="pref_title_battery_level">порог заряда</string>
+
+</resources>
