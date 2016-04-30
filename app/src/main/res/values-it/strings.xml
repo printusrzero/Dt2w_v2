@@ -9,10 +9,10 @@
     <string name="apk_kernel_ok"> controllo OK</string>
 
     <string name="pref_description_credits1">DoubleTap2Wake per Huawei P7/P6S è parte di un progetto più ampio, si prega di controllare GitHub/XDA/4PDA con questi indicatori per ulteriori crediti.</string>
-    <string name="pref_description_credits_credits2">di Kostyan_nsk, maggiori info su github Kostyan-nsk/hwp6s-kernel</string>
-    <string name="pref_description_credits_credits3">Driver originali per il DoubleTap2Wake scritti da Dennis Rassmann</string>
-    <string name="pref_description_credits_credits4">Animazioni grafiche e traduzione italiana di Usb2</string>
-    <string name="pref_description_credits_credits5">Dt2w Apk v2 di Printusrzero</string>
+    <string name="pref_description_credits2">di Kostyan_nsk, maggiori info su github Kostyan-nsk/hwp6s-kernel</string>
+    <string name="pref_description_credits3">Driver originali per il DoubleTap2Wake scritti da Dennis Rassmann</string>
+    <string name="pref_description_credits4">Animazioni grafiche e traduzione italiana di Usb2</string>
+    <string name="pref_description_credits5">Dt2w Apk v2 di Printusrzero</string>
 
     <string name="pref_description_dash1">DoubleTap2Wake richiede dispositivi con kernel k-tuned.</string>
     <string name="pref_description_dash_kernel">3.0.101_K_Tuned per P7/P6S di Kostyan_nsk</string>
@@ -89,15 +89,15 @@
         <item>1080</item>
     </string-array>
 
-    <string name="pref_description_dt2w_battery_check">Disabilitare doppio tap ad un livello inferiore di carica prestabilito</string>
-    <string name="pref_header_dt2w_battery_check">Opzioni Energia</string>
-    <string name="pref_title_dt2w_battery_check">Sensore batteria</string>
-    <string name="pref_title_dt2w_battery_level">Soglia di carica</string>
+    <string name="pref_description_battery_check">Disabilitare doppio tap ad un livello inferiore di carica prestabilito</string>
+    <string name="pref_header_battery_check">Opzioni Energia</string>
+    <string name="pref_title_battery_check">Sensore batteria</string>
+    <string name="pref_title_battery_level">Soglia di carica</string>
 
     <string name="required">richiesto</string>
 
     <string name="pref_header_app_setup">Impostazioni applicazione</string>
-    <string name="pref_huawei_startup_desc">"Aggiungere Dt2w in Gestione Avvio per ripristinare i valori all'accensione."</string>
+    <string name="pref_huawei_startup_desc">Aggiungere Dt2w in Gestione Avvio per ripristinare i valori all\'accensione.</string>
     <string name="pref_huawei_startup_apps">Gestione avvio</string>
     <string name="pref_huawei_protected_desc">Aggiungere Dt2w in App Protette per permettere il controllo batteria.</string>
     <string name="pref_huawei_protected_apps">App protette</string>

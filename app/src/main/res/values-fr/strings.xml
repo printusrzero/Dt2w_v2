@@ -31,9 +31,10 @@
         <string name = "pref_description_credits1"> DoubleTap2Wake pour Huawei P7 / P6S fait partie d\'un projet plus large, s\'il vous plaît vérifier GitHub / XDA / 4PDA avec ces pointeurs pour d\'autres crédits. </string>
         <string name = "pref_title_credits_credits2">Noyau K-tuned (P6S / P7)</string>
         <string name ="pref_description_credits2">par Kostyan_nsk, plus sur GitHub Kostian NSK / hwp6s-kernel</string>
-        <string name ="pref_description_credits3"> DoubleTap2Wake pilote d\'origine écrit par Dennis Rassmann </string>
-        <string name ="pref_description_credits4"> Dt2w v2 par Printusrzero </string>
-        <string name = "apk_kernel_ok"> vérifier OK </string>
+        <string name ="pref_description_credits3"> DoubleTap2Wake pilote d\'origine écrit par Dennis Rassmann </string><![CDATA[
+        
+        ]]>
+    <string name = "apk_kernel_ok"> vérifier OK </string>
         <string name = "apk_kernel_not_compatible">kernel pas compatible, s\'il vous plaît installer</string>
         <string name = "apk_target_kernel_desc">une version du noyau compatible avec K-tuned.</string>
         <string-array name = "pref_dt2w_duration_titles">
@@ -86,4 +87,7 @@
         </string-array>
     <string name="app_name">Dt2w</string>
     <string name="apk_target_kernel_prefix">K-Tuned</string>
+    <string name="pref_description_credits4">Animation graphique et L10n Italy par Usb2</string>
+    <string name="pref_description_credits5">Dt2w v2 par Printusrzero</string>
+    <string name="pref_description_app_animations">Montrer animation graphique </string>
 </resources>

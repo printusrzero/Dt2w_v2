@@ -23,6 +23,7 @@
     <string name="pref_description_dt2w_detect_area">Area of screen used to detect gesture</string>
     <string name="pref_title_s2s_detect_area">S2S sensor size</string>
     <string name="pref_description_s2s_detect_area">Width percentage threshold</string>
+    <string name="pref_description_app_animations">Display graphics animation</string>
     <string name="pref_huawei_protected_apps">Protected apps</string>
     <string name="pref_huawei_startup_apps">Startup manager</string>
     <string name="pref_huawei_startup_desc">Add Dt2w to Startup Manager to apply settings during phone startup.</string>
@@ -34,7 +35,8 @@
     <string name="pref_title_credits_credits2">K-Tuned kernel (P6S/P7)</string>
     <string name="pref_description_credits2">by Kostyan_nsk, more info on github Kostyan-nsk/hwp6s-kernel</string>
     <string name="pref_description_credits3">DoubleTap2Wake original driver authored by Dennis Rassmann</string>
-    <string name="pref_description_credits4">Dt2w Apk v2 by Printusrzero</string>
+    <string name="pref_description_credits4">Graphics animation and Italian L10n by Usb2</string>
+    <string name="pref_description_credits5">Dt2w Apk v2 by Printusrzero</string>
 
     <string name="apk_kernel_ok"> check OK</string>
     <string name="apk_kernel_not_compatible"> kernel not compatible, please install </string>

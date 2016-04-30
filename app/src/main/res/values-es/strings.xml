@@ -30,6 +30,7 @@
 
 
     <string name="pref_header_app_setup">Opciones de aplicación</string>
+    <string name="pref_description_app_animations">Mostrar animaciones</string>
 
     <string-array name="pref_dt2w_duration_titles">
         <item>1 minuto</item>
@@ -91,7 +92,8 @@
     <string name="pref_title_credits_credits2">K-Tuned kernel (P6S/P7)</string>
     <string name="pref_description_credits2">by Kostyan_nsk, more info on github Kostyan-nsk/hwp6s-kernel</string>
     <string name="pref_description_credits3">DoubleTap2Wake original driver authored by Dennis Rassmann</string>
-    <string name="pref_description_credits4">Dt2w Apk v2 by Printusrzero</string>
+    <string name="pref_description_credits4">Graphics animation and Italian L10n by Usb2</string>
+    <string name="pref_description_credits5">Dt2w Apk v2 by Printusrzero</string>
 
     <string name="apk_kernel_ok"> test OK</string>
     <string name="apk_kernel_not_compatible"> kernel no compatible, intalar </string>
